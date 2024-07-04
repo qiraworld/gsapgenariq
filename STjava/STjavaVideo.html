@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Page Title</title>
+  <style>
+    .video-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+#container {
+  height: 500vh;
+}
+    </style>
+    <video src="https://cdn.shopify.com/videos/c/o/v/9ed2b0dcb0084758b5818a78ff83ca99.mp4" playsinline="true" webkit-playsinline="true" preload="auto" muted="muted" class="video-background"></video>
+
+    
+    
+<div id="container"></div>
+
+</head>
+<body>
+  <canvas height="770" width="1158" id="image-sequence"></canvas>
+
+  
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+  <script src="STjavaVideo.js"></script>
+
+  <footer>This is the footer.</footer>
+</body>
+</html>
